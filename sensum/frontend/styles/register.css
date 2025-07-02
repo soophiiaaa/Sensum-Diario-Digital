@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --background-color: #f6f8ff;
+    --primary-color: #2b2b78;
+    --second-color: #2b364a;
+    --button-color: #d2d5fa;
+    --button-hover: #b0b3f0;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--button-color);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.register-area {
+    flex: 1;
+    padding: 40px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-area h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+form > div {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 350px;
+}
+
+.button button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    margin: 20px auto 10px auto;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: var(--button-hover);
+}
+
+button {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.image-area {
+    flex: 1;
+    background-color: var(--button-hover);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-area img {
+    max-width: 80%;
+    height: auto;
+}
