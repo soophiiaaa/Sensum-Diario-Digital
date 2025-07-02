@@ -39,7 +39,25 @@ body {
     align-items: center;
 }
 
+.login-area {
+    flex: 1;
+    padding: 40px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .register-area h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+.login-area h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
